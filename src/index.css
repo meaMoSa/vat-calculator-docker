@@ -1,8 +1,25 @@
-#root {
-  background-image: url('chii_money.png');
-  background-size: cover;
-  background-position: center;
+.calculator-wrapper {
   position: relative;
+  display: inline-block; /* Shrink-wraps tightly to the image's actual size */
+}
+
+.calc-bg-img {
+  display: block;
+  width: 100%;        /* Scales responsively if needed */
+  max-width: 400px;   /* Prevents it from getting too big (adjust to your image's original width) */
+  height: auto;       /* Preserves the exact aspect ratio so it doesn't stretch */
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Optional: If your calculator elements need padding to align with buttons on the image */
+  box-sizing: border-box;
+  padding: 20px; 
 }
 
 body {
