@@ -1,9 +1,7 @@
 #root {
-  background-image: url('/chii_money.png');
+  background-image: url('chii_money.png');
   background-size: cover;
   background-position: center;
-  width: 100vw;
-  height: 100vh;
   position: relative;
 }
 
