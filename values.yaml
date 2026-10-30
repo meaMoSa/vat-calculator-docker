@@ -1,2 +1,2 @@
-image: meaMoSa/vat-calculator-docker:<+pipeline.sequenceId>
+image: meamosa/vat-calculator-docker:<+pipeline.sequenceId>
 replicas: 1
